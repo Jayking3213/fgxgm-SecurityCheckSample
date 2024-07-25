@@ -1,5 +1,5 @@
 # Use a specific Node.js version with a smaller base image for security and performance
-FROM node:18.17.1-slim
+FROM node:18.20.3-slim
 
 # Set the working directory
 WORKDIR /app
